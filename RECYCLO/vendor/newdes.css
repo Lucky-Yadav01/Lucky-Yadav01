@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Navbar design start */
+
+.navbar{
+    height: 80px;
+    background: #577D86;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid aqua;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 75px;
+    margin-top: 10px;
+}
+
+.logo{
+    background-image: url(../assets/recyclologo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 75px;
+}
+
+/* box-2 */
+.nav-address{
+    height: 40px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box-3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 2px solid #11235A;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 2px 0 0 2px;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #FFA732;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+/* box 3 */
+
+.nav-chat{
+    height:40px;
+    width: 40px;
+    margin-top: 15px;
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-chat:hover{
+    font-size: 2.5rem;
+}
+
+/* Navbar Login */
+
+.nav-login{
+    color: #e2e7e9;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+}
+
+.nav-login:hover{
+    font-size: 2rem;
+}
+
+.nav-login a{
+    color: #e2e7e9;
+}
+
+/* Navbar Sell */
+
+.nav-sell{
+    display: flex;
+    color: #DC84F3;
+    height: 40px;
+    width: 80px;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 5px solid  #5b9fcc;
+}
+
+.nav-sell:hover{
+    border: 7px solid #5b9fcc;
+}
+
+.nav-sell a{
+    color: #e2e7e9;
+}
+
+/* Subpart of Navbar */
+.sub-nav{
+    margin-top: 5px;
+    background-color: rgb(250, 245, 245);
+    color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly !important;
+    gap: 0.2;
+    border: 0.5px solid black;
+}
+
+.categories{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-cate{
+    font-size: 1rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.opts p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.opts{
+    width: 90%;
+    font-size: 0.85rem;
+}
+
+/* Hero section */
+.hero-section{
+    background-color:#B9EDDD;
+}
+/* Product Ads  */
+.shop-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background-color: #e2e7e6; */
+}
+
+.box{
+    height: 350px;
+    width: 17%;
+    padding: 20px 0px 15px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.box h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box-img{
+    height: 200px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.box-content{
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+
+.box-content p{
+    margin-top: 5px;
+}
+
+.box-content .price{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.date-pub{
+    margin-left: 80%;
+    font-size: 0.8;
+}
+
+/* FOOTER */
+footer{
+    height: 20rem;
+    background:#0F1035;
+    opacity:0.8;
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+  }
+  footer a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .social-items{
+    width: 30%;
+    translate: 40rem 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: -60px; 
+    justify-content: space-evenly !important;
+    align-items: center;
+  }
+  footer .marg-line{
+    margin-top: 3rem;
+  }
+  .foot-text{
+    width: 71%;
+    translate: 15rem 1.5rem;
+  }
+  .icons i{
+    width: 600px;
+    /* justify-content: space-evenly !important; */
+    margin-left: 50px;
+    display: inline;
+  
+  }

@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 80px;
+    background: linear-gradient(#E01C34,#E6B9DE );
+    color: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.box-1{
+    background: url(../assets/recyclologo.jpg) no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin-left: -65rem;
+    display: block;
+}
+.box-2{
+    margin-right: -60rem;
+}
+.box-2 button{
+width: 8rem;
+height: 2.5rem;
+justify-content: center;
+align-items: center;
+border: 1px solid white;
+border-radius: 20px;
+background:#fff;
+color: black;
+font-weight: 800;
+font-size: 1.3rem;
+background-color: #E493B3;
+}
+.box-2 button:hover{
+    border: 2px solid white;
+    width: 8.3rem;
+    height: 2.8rem;
+    background-color:#e50d4e ;
+    color: white;
+}

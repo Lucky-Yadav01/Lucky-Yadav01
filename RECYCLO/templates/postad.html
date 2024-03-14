@@ -1,0 +1,280 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Options</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../vendor/postad.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <a href="./productsell.html">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <h2>Post Ad</h2>
+  <div class="box">
+    <div class="container">
+        <h2>Select an Option:</h2>
+        <div id="option-buttons"></div>
+      </div>
+      <div id="sub-options" class="sub-options-container">
+        <h2>Select a Sub-Option:</h2>
+        <div id="sub-option-buttons"></div>
+      </div>
+    </div>
+    <footer></footer>
+      <script>
+// List of options
+const options = [
+  {
+    name: "Paper and Cardboard",
+    subOptions: ["Newspapers", "Paper packaging", "Office paper", " Cardboard boxes","Magazines"]
+  },
+  {
+    name: "Glass",
+    subOptions: ["Glass-Botttles", "Glass Jars"]
+  },
+  {
+    name: "Cooking Oil",
+    subOptions: ["Used cooking Oil"]
+  },
+  {
+    name: "Light Bulbs",
+    subOptions: ["Fluorescent Bulb", "LED bulbs"]
+  },
+  {
+    name: "Automobiles",
+    subOptions: ["Scrap metal from Cars"]
+  },
+  {
+    name: "Furniture",
+    subOptions: ["Wooden furniture", "Metal Furniture"]
+  },
+  {
+    name: "Motor Oil",
+    subOptions: ["Used motor oil(can be recycled)"]
+  },
+  {
+    name: "Packaging Materials",
+    subOptions: ["Sytrofoam", "Bubble wrap", "Cardboard Boxes"]
+  },
+  {
+    name: "Prinrter Catridges",
+    subOptions: ["Ink and toner catridge"]
+  },
+  {
+    name: "Construction and Demolition waste",
+    subOptions: ["Concrete", "Wood", "Metal", "Asphalt"]
+  },
+  {
+    name: "Batteries",
+    subOptions: ["Rechargable Batteries", "Single-use Battries"]
+  },
+  {
+    name: "Tyres",
+    subOptions: ["Rubber Tyres"]
+  },
+  {
+    name: "Appliacances",
+    subOptions: ["Refrigrators", "Washing Machines", "Dryers","Dishwashers"]
+  },
+  {
+    name: "Organic Wastes",
+    subOptions: ["Food Scrapers", "Yard Waste", " Compostable waste"]
+  },
+  {
+    name: "Textiles",
+    subOptions: ["Clothing", "Bedding","Shoes","Textile Shops"]
+  },
+  {
+    name: "Electronics and E-waste",
+    subOptions: ["Computers", "Cell phones","Printers", "Batteries", "cables and wires"]
+  },
+  {
+    name: "Metals",
+    subOptions: ["Aluminium cans", "Steel cans", "Tin cans", "Copper", "Brass"]
+  },
+  {
+    name: "Plastic",
+    subOptions: ["PET bottles(Water and Soda bottles)", "HDPE bottles(milk jugs, Detergent Bottles)", "PVC(pipes, some  Packaging)", "LDPE (plastic bags,some containers)", "PP (caps, some containers)", "PS(foam packaging,disposable packaging)" , "Other Miscelleneous Plastic(chack local recycling guidlines)"]
+  }
+];
+
+// Create and append buttons for each option
+const optionButtons = document.getElementById("option-buttons");
+
+
+options.forEach(option => {
+  const button = document.createElement("button");
+  button.textContent = option.name;
+  button.addEventListener("click", function () {
+    showSubOptions(option.subOptions);
+  });
+  optionButtons.appendChild(button);
+});
+
+// Show the sub-options
+function showSubOptions(subOptions) {
+  const subOptionsElement = document.getElementById("sub-options");
+  subOptionsElement.style.display = "block";
+
+  // Clear any existing sub-options
+  const subOptionButtons = document.getElementById("sub-option-buttons");
+  subOptionButtons.innerHTML = "";
+
+  // Create and append buttons for each sub-option
+  subOptions.forEach(subOption => {
+    const button = document.createElement("button");
+    button.textContent = subOption;
+    button.classList.add("sub-option-button");
+    button.addEventListener("click", function () {
+      subOptionsElement.style.display = "none";
+      console.log("Sub-option", subOption, "was selected.");
+    });
+    subOptionButtons.appendChild(button);
+  });
+
+  
+}
+      </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../vendor/postad.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+        <div class="nav-logo">
+            <a href="../templates/dashboard.html">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+        </div>
+    </div>
+</header>
+    </header>
+    <div class="hero-section">
+        <div class="shop-sec">
+            <div class="box-1 box">
+              <a href="./sellplastic.html">
+                <h2>Plastic</h2>
+                <div class="box-img" style="background-image: url(../assets/plastic\ recyclinng.jpg);">
+                </div></a>
+            </div>
+            <div class="box-1 box">
+              <a href="./sellpaper.html">
+                <h2>Papers</h2>
+                <div class="box-img" style="background-image: url(../assets/paper\ and\ cardboard.jpg);">
+                </div></a>
+          
+            </div>
+            <div class="box-1 box">
+              <a href="./selltextiles.html">
+                <h2>Textiles</h2>
+                <div class="box-img" style="background-image: url(../assets/Textile\ recycling.jpg);">
+                </div></a>
+                
+            </div>
+            <div class="box-1 box">
+              <a href="./sellpackaging.html">
+                <h2>Packaging</h2>
+                <div class="box-img" style="background-image: url(../assets/packaging\ materials.jpg);">
+                </div></a>
+            </div>
+            </div>
+            <div class="shop-sec">
+            <div class="box-1 box">
+              <a href="./sellglass.html">
+                <h2>Glass</h2>
+                <div class="box-img" style="background-image: url(../assets/Glasss\ Recycling.jpg);">
+                </div></a>
+            </div>
+            <div class="box-1 box">
+              <a href="./sellFurniture.html">
+                <h2>Furniture</h2>
+                <div class="box-img" style="background-image: url(../assets/furniture.jpg);">
+                </div></a>
+            </div>
+            <div class="box-1 box">
+              <a href="./sellorganicwaste.html">
+                <h2>waste</h2>
+                <div class="box-img" style="background-image: url(../assets/organic\ waste.jpg);">
+                </div></a>
+               
+            </div>
+            <div class="box-1 box">
+              <a href="./selltyres.html">
+                <h2>Tyres</h2>
+                <div class="box-img" style="background-image: url(../assets/tyres.jpg);">
+                </div></a>
+            </div>
+            </div>
+            <div class="shop-sec">
+            <div class="box-1 box">
+              <a href="../templates/selllightbulbs.html">
+                <h2>Bulbs</h2>
+                <div class="box-img" style="background-image: url(../assets/bulbs.jpg);">
+                </div></a>
+                
+            </div>
+            <div class="box-1 box">
+              <a href="../templates/sellbatteries.html">
+                <h2>Battery</h2>
+                <div class="box-img" style="background-image: url(../assets/Battery.jpg);">
+                </div></a>
+
+            </div>
+            <div class="box-1 box">
+              <a href="../templates/sellAutomobiles.html">
+                <h2>Automobile</h2>
+                <div class="box-img" style="background-image: url(../assets/automobile.jpg);">
+                </div></a>
+               
+            </div>
+            <div class="box-1 box">
+              <a href="../templates/sellaplliances.html">
+                <h2>Appliances</h2>
+                <div class="box-img" style="background-image: url(../assets/Appliances.jpg);">
+                </div></a>
+               
+        </div>
+<!-- CREATE A BACK TO TOP BUTTON WITH THE HELP OF JAVASCIPT AND PUT IT HERE -->
+    </div>
+    <footer>
+        <div class="social-items">
+          <div class="icons">
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="./templates/queryemail.html">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </div>  
+        </div>
+        <hr class="marg-line">
+        <div class="foot-text">
+          "Welcome to Recyclo, where sustainability meets convenience. Explore our marketplace dedicated to buying and selling recyclable goods effortlessly. Join a community committed to reducing waste and promoting eco-friendly living. Your one-stop destination for a greener, more sustainable lifestyle. Embrace the Recyclo revolution and make a positive impact on the planet, one transaction at a time."
+        </div>
+      </footer>
+      <script href="../javscrpt files/search.js"></script>
+</body>
+</html>

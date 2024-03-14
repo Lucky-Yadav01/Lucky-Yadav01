@@ -1,0 +1,426 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    margin:0;
+    padding: 0;
+}
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    /* color: #fff; */
+}
+/* NAVBAR  */
+nav{
+  height: 80px;
+  background: #577D86;
+  color: #fff;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+.box-1{
+  background: url(../assets/recyclologo.jpg) no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  margin-left: -65rem;
+  display: block;
+}
+.box-2{
+  margin-right: -60rem;
+}
+.box-2 button{
+width: 8rem;
+height: 2.5rem;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+border-radius: 20px;
+background:#fff;
+color: black;
+font-weight: 800;
+font-size: 1.3rem;
+background-color: #87CBB9;
+}
+.box-2 button:hover{
+  border: 2px solid black;
+  width: 8.3rem;
+  height: 2.8rem;
+  background-color:#B9EDDD ;
+  color: black;
+}
+
+.main-content
+{
+    margin: 0;
+    background: url(./assets/web_bg.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 70rlh;
+}
+.container-fluid{
+    background-image: linear-gradient(to right, #ecadff, #5b9fcc);
+    
+}
+.headline{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: linear-gradient(#ecadff, #5b9fcc);
+}
+.headline h1{
+    color: gray;
+    text-align: center;
+    position: absolute;
+    text-decoration: double;
+    text-shadow: #5b9fcc;
+    /* background-image: linear-gradient(#A6CF98, #818FB4); */
+    font-size: 300%;
+    border-radius: 10px;
+   
+}
+.headline h3{
+    background-image: linear-gradient(#ecadff, #5b9fcc);
+    /* height: 80px; */
+}   
+form{
+    position: absolute;
+    width: 30%;
+    height: 0.5%;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    min-width: 30rlh;
+}
+
+.main-cont{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-card{
+    height: 450px;
+    width: 800px;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+.head-cont{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.head-cont h1{
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-size: 64px;
+    margin: 0;
+}
+.marg-line{
+    margin-inline: 50px;
+}
+
+
+.main-para p{
+    width: auto;
+    display: flex;
+    justify-content: center !important;
+    margin-inline: 50px;
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* ABOUT RECYCLO */
+.about-recyclo{
+    /* background: linear-gradient(#ACABB0,#E01C34 ); */
+    background: #B9EDDD;
+    color: #fff;
+}
+
+/* MOTIVE PART */
+
+/* ABOUT IMAGE */
+.about-img{
+    background-image: url(./assets/Aboutus.jpeg);
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 45rem;
+    translate: 1050px 150px;
+
+}
+
+
+.main-line{
+    display: block;
+    margin: 0 10px 0 10px;
+    gap:25rem;
+}
+
+.motive-head{
+  color: #577D86;
+    justify-content: center;
+    align-items: center;
+    translate: 450px -80px;
+    font-size: 3.2rem;
+    font-weight: 800;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.motive-para{
+  color: black;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    font: 400 1rem 'Josefin Sans', sans-serif;
+    margin-top: -3rem;
+    margin-left: 10rem;
+    margin-right: 30rem;
+}
+
+/* OBJECTIVES OF RECYCLO */
+
+.obj-recyclo{
+    display: block;
+    margin-left: 35%;
+}
+
+.obj-img{
+    background-image: url(./assets/objective-logo-600-15724.png);
+    background-repeat: no-repeat;
+    height: 13rem;
+    width: 55rem;
+    margin-top:-8rem;
+}
+
+.obj-content{
+    font: 700 1rem 'Josefin Sans', sans-serif;
+    color: black;
+    /* translate: -3rem;
+    margin-right: 1rem; */
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+ .obj-content .high{
+  /* font-size: 2.5rem;
+  font-weight: 700; */
+  margin-top: -1.8rem;
+  display: flex;
+  font: 700 1.5rem 'Josefin Sans', sans-serif;
+}
+.obj-content .low{
+  display: flex;
+  font: 200 1rem 'Josefin Sans', sans-serif;
+  margin-left: 1rem;
+}
+
+
+.obj-quote{
+    background-image: url(./assets/Recycle\ here.png);
+    background-repeat: no-repeat;
+    height: 25rem;
+    width: 55rem;
+    margin-bottom: -5rem;
+    margin-top: 5rem;
+    margin-left: -25rem;
+}
+
+.rec-quote{
+    background-image: url(./assets/Recycling\ Quotes.jpg);
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 15rem;
+    translate: -32rem 20rem;
+}
+
+/* HELP */
+.wrapper > p,
+.wrapper > h1 {
+  margin: 1.5rem 0;
+  text-align: center;
+  color: black;
+}
+
+.wrapper > h1 {
+  letter-spacing: 3px;
+}
+
+.accordion {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 2rem 2.5rem;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.accordion i {
+  font-size: 1.6rem;
+}
+
+.active,
+.accordion:hover {
+  background-color: #f1f7f5;
+}
+.pannel {
+  padding: 0 2rem 2.5rem 2rem;
+  background-color: white;
+  overflow: hidden;
+  background-color: #f1f7f5;
+  display: none;
+}
+.pannel p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.faq {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-left: 15%;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.faq.active {
+  border: none;
+}
+.container-fluid{
+  background-image: linear-gradient(to right, #ecadff, #5b9fcc);
+  
+}
+
+.copyright{
+    padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.contact-info{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.contact-info p{
+    background-color: #333;
+    color: #fff;
+    border: 0;
+    margin: 0;
+}
+
+  /* Query mail */
+.query-mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left: 95px;
+    color: black;
+}
+.head-text{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.sub-querytext{
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-left: -5.5rem;
+}
+.query-button{
+  translate: 90px;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.query-button button{
+  width: 8rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 20px;
+  background:#fff;
+  color: black;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.query-button button:hover{
+  border: 2px solid white;
+  width: 8.3rem;
+  height: 2.8rem;
+  background-color: #FF004D;
+  color: white;
+}
+
+/* FOOTER OF RECYCLO */
+footer{
+  height: 20rem;
+  background:#0F1035;
+  opacity:0.8;
+  color:#fff;
+  justify-content: center;
+  align-items: center;
+}
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
+.social-items{
+  width: 30%;
+  translate: 40rem 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: -60px; 
+  justify-content: space-evenly !important;
+  align-items: center;
+}
+footer .marg-line{
+  margin-top: 3rem;
+}
+.foot-text{
+  width: 71%;
+  translate: 15rem 1.5rem;
+}
+.icons i{
+  width: 600px;
+  /* justify-content: space-evenly !important; */
+  margin-left: 50px;
+  display: inline;
+
+}
+
+/* sagar css */
+.obj-contet p{
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: flex;
+}
+.obj-content{
+  /* font: 700 1rem 'Josefin Sans', sans-serif; */
+  color: black;
+  margin-top: 3rem;
+  margin-right: 1rem;
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 500;
+
+}
+.high{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.obj-content ol{
+  font-weight: 700;
+  font-size: 1.5rem;
+}

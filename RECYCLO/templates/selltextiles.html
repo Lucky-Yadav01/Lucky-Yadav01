@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Textiles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../vendor/sellform.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <a href="./postad.html">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="hover-effect">
+    </div>
+    <div class="main-line">
+        <h1>POST AD</h1>
+    </div>
+    <div class="post-form">
+        <form>
+            <div class="selected-category">
+                <div class="select-heading">
+                    <p>Selected category</p>
+                </div>
+                <div class="product-category">
+                    <p>Textiles</p>
+                </div>
+            </div>
+            <div class="sub-category">
+                <p>Select Category</p>
+            </div>
+            <div class="option-category">
+                <label>Select the Type of paper or Cardboard</label>
+                <select name="inputpaper" id="paperslect" class="hover-effect" required>
+                    <option slected>Choose...</option>
+                    <option>Clothing</option>
+                    <option>Bedding</option>
+                    <option>Shoes</option>
+                    <option>Textile scraps</option>
+                </select>
+            </div>
+            <div class="main-info">
+                <div class="headline">
+                    <p>Include some Details</p>
+                </div>
+                <div class="brand-name">
+                    <p>Brand</p>
+                    <input type="text" placeholder="Please fill the Brand " class="hover-effect" required>
+                </div>
+                <div class="year-purchase">
+                    <p>Year(When the product was bought)</p>
+                    <input type="date" >
+                </div>
+                <div class="describe-product ">
+                    <p>Description of product</p>
+                    <input type="text" placeholder="Enter Proper description of the product" class="hover-effect" required>
+                </div>
+                <div class="product-quantity brand-name">
+                    <p>Quantity</p>
+                    <input type="text" placeholder="Enter Quantity" required>
+                </div> 
+                <div class="product-price brand-name">
+                    <p>Offer Price(in Rs.)</p>
+                    <input type="text" placeholder="Enter the price of the product" required>
+                </div> 
+                <div class="product-photo">
+                    <div class="pic-heading">
+                        <div class="head1">
+                        <p>Recycle goods Photos</p></div>
+                        <p>(Give atleast 4 photos)</p>
+                    </div>
+                    <div class="input-photos">
+                        <input type="file" required>
+                        <input type="file" required>
+                        <input type="file" required>
+                        <input type="file" required>
+                    </div>
+                </div>
+                <div class="present-location describe-product">
+                    <div class="present-address">
+                        <p>Enter your present address</p>
+                        <input type="text" placeholder="Address" class="hover-effect" required>
+                    </div>
+                    <div class="state option-category">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="hover-effect">
+                          <div class="state-option">
+                          <option selected>Choose...</option>
+                          <option>Andhra Pradesh</option>
+                          <option>Arunachal Pradesh</option>
+                          <option>Assam</option>
+                          <option>Bihar</option>
+                          <option>Chhattisgarh</option>
+                          <option>Goa</option>
+                          <option>Gujarat</option>
+                          <option>Haryana</option>
+                          <option>Himachal Pradesh</option>
+                          <option>Jharkhand</option>
+                          <option>Karnataka</option>
+                          <option>Kerala</option>
+                          <option>Madhya Pradesh</option>
+                          <option>Maharashtra</option>
+                          <option>Manipur</option>
+                          <option>Manipur</option>
+                          <option>Meghalaya</option>
+                          <option>Mizoram</option>
+                          <option>Nagaland</option>
+                          <option>Odisha</option>
+                          <option>Punjab</option>
+                          <option>Rajasthan</option>
+                          <option>Sikkim</option>
+                          <option>Tamil Nadu</option>
+                          <option>Telangana</option>
+                          <option>Tripura</option>
+                        </div>
+                        </select>
+                    </div>
+                    <div class="post-ad ">
+                        <button type="submit" class="hover-effect">Post</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

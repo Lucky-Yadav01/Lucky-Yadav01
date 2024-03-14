@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="../vendor/queryemail.css">
+</head>
+<body>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>GET IN TOUCH WITH OWNER</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="2da2fecd-2a86-4d24-af58-1af29885e082">
+            <input type="text" id="name" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" id="email" name="email" placeholder="Email id of product owner" class="contact-inputs" required>
+            <input type="text" id="phone" name="phone" placeholder="Phone Number" class="contact-inputs" required>
+            <textarea id="message" name="message" placeholder="Please write email body" class="contact-inputs" required></textarea>
+        <button type="submit">Send <img src="../assets/emailquerywhite.jpg" alt=""></button>
+        </form>
+        <div class="contact-right">
+            <img src="../assets/emailquery.jpg" alt="">
+        </div>
+    </div>  
+</body>
+</html>

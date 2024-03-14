@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #CDFADB;
+}
+
+/* HOVER EFFECT */
+.hover-effect{
+    border: 1px solid black;
+}
+
+.hover-effect:hover{
+    border: 2px solid rgb(26, 238, 224);
+}
+/* Navbar */
+.navbar{
+    height: 60px;
+    background: #f3f3f8;
+    color: black;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.nav-logo{
+      align-items: center;
+      margin-left: 2rem;
+      
+}
+
+.nav-logo a{
+    margin-top: 10px;
+    border: 1px solid rgb(208, 205, 205);
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(246, 241, 241);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Headline */
+.main-line{
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* Form Of the post */
+.post-form{
+    border: 5px solid black;
+}
+
+/* Selected category */
+.select-heading{
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.product-category{
+    margin-left: 10px;
+    margin-top: -30px;
+    font-size: 1.3rem;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.selected-category{
+    border: 2px solid black;
+    
+}
+
+/* SUB-CATEGORY SELECTION */
+
+.sub-category{
+    margin-left: 35px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.option-category label{
+    margin-left: 45px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.option-category select{
+    width: 180px;
+    height: 30px;
+    margin-left: 25px;
+    background: transparent;
+    border: 1px solid black;
+}
+
+.option-category option{
+    font-size: 1rem;
+    font-weight: 400;
+    /* background: transparent; */
+    opacity: 0.5;
+    background-color: #fff;
+}
+
+.main-info .headline{
+    margin-left: 45px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.main-info .brand-name p{
+    margin-left: 45px;
+    font-size: 1.3rem;
+}
+
+.brand-name{
+    display: flex;
+}
+.main-info .brand-name  input{
+    margin-left: 45px;
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1.5px solid black;
+    font-size: 1rem;
+}
+.main-info .brand-name  input:hover{
+    border: 3px solid rgb(26, 238, 224) ;
+}
+
+.year-purchase{
+    margin-left: 45px;
+    font-size: 1.2rem;
+    display: flex;
+}
+.year-purchase input{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 150px;
+    height: 30px;
+    font-size: 1rem;
+    margin-top: 17px;
+}
+.year-purchase input:hover{
+    border: 3px solid rgb(26, 238, 224) ;
+}
+
+.describe-product p{
+    margin-left: 45px;
+    width: 350px;
+    height: 30px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.describe-product input{
+    margin-left: 55px;
+    width: 350px;
+    height: 75px;
+    font-size: 1.2rem;
+}
+
+.state{
+    margin-top: 15px;
+    
+}
+
+.state label{
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+
+.pic-heading{
+    margin-left: 45px;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.pic-heading .head1{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.input-photos{
+    margin-left: 45px;
+    display: block;
+}
+
+.post-ad button{
+    width: 160px;
+    height: 45px;
+    margin-left: 45%;
+    margin-bottom: 15px;
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color: black;
+    font-weight: 700;
+}
