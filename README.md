@@ -1,16 +1,16 @@
-## Hi there 👋
+# 👋 Hi, I'm Lucky Yadav
 
-<!--
-**Lucky-Yadav01/Lucky-Yadav01** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a B.Tech Computer Engineering student passionate about web development, problem solving, and building real-world applications.
 
-Here are some ideas to get you started:
+### 🛠️ Skills
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- HTML, CSS, JavaScript, React.js, Tailwind CSS  
+- Python, C, C++, PHP, MySQL  
+- Django (basics), REST APIs, Git & GitHub
+
+### 📬 Contact
+
+- 📧 yadav.lucky130104@gmail.com  
+- 💼 [LinkedIn](https://linkedin.com/in/lucky-yadav13)
+
+Thanks for visiting!
