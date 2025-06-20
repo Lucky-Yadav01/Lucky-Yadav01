@@ -1,16 +1,17 @@
-# 👋 Hi, I'm Lucky Yadav
+<h1 align="center">👋 Hi, I'm Lucky Yadav</h1>
 
-I'm a B.Tech Computer Engineering student passionate about web development, problem solving, and building real-world applications.
+<p align="center">
+  🎓 B.Tech Computer Engineering • Aspiring Full-Stack Developer  
+  💻 I build responsive web apps and solve real-world problems through code!
+</p>
 
-### 🛠️ Skills
+---
 
-- HTML, CSS, JavaScript, React.js, Tailwind CSS  
-- Python, C, C++, PHP, MySQL  
-- Django (basics), REST APIs, Git & GitHub
+## 🧩 About Me
 
-### 📬 Contact
+I’m deeply passionate about **full-stack development**—from crafting sleek UIs with React.js & Tailwind CSS to developing solid backend logic in Django/PHP.  
+I thrive on learning new tech, solving challenges, and collaborating on meaningful projects.
 
-- 📧 yadav.lucky130104@gmail.com  
-- 💼 [LinkedIn](https://linkedin.com/in/lucky-yadav13)
+---
 
-Thanks for visiting!
+## 🚀 Tech Stack
